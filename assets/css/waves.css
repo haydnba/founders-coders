@@ -1,8 +1,10 @@
 .parallax {
   perspective: 1px;
-  height: 100vh;
+  height: 48vh;
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: #f2e394;
+  background-image: linear-gradient(#f2e394, darkgray);
 }
 
 .parallax__layer {
@@ -27,8 +29,8 @@
 }
 
 .parallax__layer > div:nth-child(even) {
-  background-color: rgb(51, 51, 51);
+  background-color: gray;
   padding: 1px;
-  box-shadow: 0px 0px 5px 0px lightblue;
+  box-shadow: 0px 0px 10px 0px lightblue;
 }
 
