@@ -112,17 +112,21 @@ nav a {
 }
 
 #qualifications {
-	width:80%;
-	padding: 10%;
+	width:100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	background-color: #8ca3a3;
 }
 
-#qualifications table {
-	border: 1px gray solid;
+table, th, td {
+	border: 2px gray solid;
+	border-collapse: collapse;
+	padding: 5px;
+	vertical-align: top;
 }
+
+
 
 .content {
 
