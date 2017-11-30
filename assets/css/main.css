@@ -67,6 +67,27 @@ nav a {
 	text-decoration: none;
 }
 
+/*
+#upBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#upBtn:hover {
+    background-color: #555;
+}
+*/
+
 #banner {
 	background-color: #223A5E;
 	margin-top: 30px;
@@ -84,7 +105,7 @@ nav a {
 
 #about {
 	width: 60%;
-	padding: 20%;
+	padding: 5% 20%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -143,12 +164,17 @@ nav a {
 table {
 	width: 90%;
 	margin: 5%;
+	font-size: 0.9em;
 }
 
-table, th, td {
-	border: 2px gray solid;
-	border-collapse: collapse;
+th, td {
 	vertical-align: top;
+	padding: 5px;
+	border-bottom: 1px solid gray;
+}
+
+footer a:hover, a:active {
+	background-color: #f2e394;
 }
 
 #contact {
@@ -244,6 +270,16 @@ table, th, td {
 		margin: 15px;
 	}
 
+	#about {
+		width: 90%;
+		padding: 5% 5%;
+	}
+
+	#contact form {
+		width: 90%;
+		padding: 20px;
+	}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -279,12 +315,22 @@ table, th, td {
 		border: 0px;
 	}
 
+	table {
+		width: 100%;
+		margin: 0%;
+		font-size: 0.8em;
+	}
+
+	table, th, td {
+		border: 1px gray solid;
+		border-collapse: collapse;
+	}
+
 	#contact {
 		padding: 0px;
 	}
 
 	#contact form {
-		background-color: #e3e0cc;
 		width: 100%;
 		margin: 0px;
 		padding: 20px;
