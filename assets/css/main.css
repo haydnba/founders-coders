@@ -69,6 +69,7 @@ nav a {
 
 #banner {
 	background-color: #223A5E;
+	margin-top: 30px;
 }
 
 #banner img {
@@ -80,10 +81,6 @@ nav a {
 	background-color: lightgray;
 	
 }
-
-/*.wrapper > div {
-	width: 50%;
-}*/
 
 .spotlight {
 	display: flex;
@@ -103,37 +100,16 @@ nav a {
 	border-radius: 50%;
 }
 
+.spotlight h3 {
+	text-align: center;
+}
+
 #about {
 	width: 60%;
 	padding: 20%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-}
-
-#qualifications {
-	width:100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #8ca3a3;
-}
-
-table, th, td {
-	border: 2px gray solid;
-	border-collapse: collapse;
-	padding: 5px;
-	vertical-align: top;
-}
-
-
-
-.content {
-
-}
-
-.content h3 {
-
 }
 
 #photo {
@@ -152,9 +128,36 @@ table, th, td {
 	background-color: #EDCDC2;
 }
 
+#qualifications {
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #8ca3a3;
+}
+
+#qualifications h3 {
+	text-align: center;
+}
+
+table {
+	width: 90%;
+	margin: 5%;
+}
+
+table, th, td {
+	border: 2px gray solid;
+	border-collapse: collapse;
+	vertical-align: top;
+}
+
 #contact {
 	background-color: gray;
 	padding: 20px;
+}
+
+#contact h3 {
+	text-align: center;
 }
 
 #contact div{
@@ -206,20 +209,19 @@ table, th, td {
 #accounts div {
 	width: 100%;
 	height: auto;
+	display: flex;
+  	justify-content: center;
 }
 
 #accounts ul {
 	list-style-type: none;
+	max-width: 600px;
 	margin: 0;
 	padding: 0;
 }
 
 #accounts li {
 	display: inline;
-}
-
-#accounts span {
-	
 }
 
 #accounts img {
